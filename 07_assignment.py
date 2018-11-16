@@ -14,7 +14,7 @@ Assignment #7
 
 Packages required:
 
-pip install cloudpickle=0.5.6 (this is an optional install to help remove an deprecation warning message from sklearn)
+pip install cloudpickle=0.5.6 (this is an optional install to help remove a deprecation warning message from sklearn)
 pip install sklearn
 
 '''
