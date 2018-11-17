@@ -58,7 +58,7 @@ import unittest
 def exercise01():
     '''
         Data set: Iris
-        Return the first 5 rows of the data column including feature names as column headings in a DataFrame and a separate Python list containing target names
+        Return the first 5 rows of the data including the feature names as column headings in a DataFrame and a separate Python list containing target names
     '''
 
     # ------ Place code below here \/ \/ \/ ------
