@@ -14,7 +14,7 @@ Assignment #7
 
 Packages required:
 
-pip install cloudpickle=0.5.6 (this is an optional install to help remove a deprecation warning message from sklearn)
+pip install cloudpickle==0.5.6 (this is an optional install to help remove a deprecation warning message from sklearn)
 pip install sklearn
 
 '''
@@ -162,7 +162,7 @@ def exercise06():
 def exercise07():
     '''
         Data set: Boston
-        Create a regression model for MED / PTRATIO and display a chart showing the regression line using matplotlib
+        Create a regression model for MEDV / PTRATIO and display a chart showing the regression line using matplotlib
         with a backdrop of a scatter plot of MEDV and PTRATIO from exercise06
         Use np.linspace() to generate prediction X values from min to max PTRATIO
         Return back the regression prediction space and regression predicted values
