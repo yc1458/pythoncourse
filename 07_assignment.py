@@ -2,7 +2,8 @@
 Assignment #7
 
 1. Add / modify code ONLY between the marked areas (i.e. "Place code below")
-2. Run the associated test harness for a basic check on completeness. A successful run of the test cases does not guarantee accuracy or fulfillment of the requirements. Please do not submit your work if test cases fail.
+2. Run the associated test harness for a basic check on completeness. A successful run of the test cases does not 
+    guarantee accuracy or fulfillment of the requirements. Please do not submit your work if test cases fail.
 3. To run unit tests simply use the below command after filling in all of the code:
     python 07_assignment.py
   
@@ -58,7 +59,8 @@ import unittest
 def exercise01():
     '''
         Data set: Iris
-        Return the first 5 rows of the data including the feature names as column headings in a DataFrame and a separate Python list containing target names
+        Return the first 5 rows of the data including the feature names as column headings in a DataFrame and a
+        separate Python list containing target names
     '''
 
     # ------ Place code below here \/ \/ \/ ------
@@ -73,7 +75,9 @@ def exercise01():
 def exercise02(new_observations):
     '''
         Data set: Iris
-        Fit the Iris dataset into a kNN model with neighbors=5 and predict the category of observations passed in argument new_observations. Return back the target names of each prediction (and not their encoded values,i.e. return setosa instead of 0).
+        Fit the Iris dataset into a kNN model with neighbors=5 and predict the category of observations passed in 
+        argument new_observations. Return back the target names of each prediction (and not their encoded values,
+        i.e. return setosa instead of 0).
     '''
 
     # ------ Place code below here \/ \/ \/ ------
@@ -111,8 +115,8 @@ def exercise04():
     '''
         Data set: Iris
         Generate an overfitting / underfitting curve of kNN each of the testing and training accuracy performance scores series
-        for a range of neighbor (k) values from 1 to 30 and plot the curves (number of neighbors is x-axis, performance score is y-axis on the chart)
-        Return back the plotly url
+        for a range of neighbor (k) values from 1 to 30 and plot the curves (number of neighbors is x-axis, performance score 
+        is y-axis on the chart). Return back the plotly url.
 
     '''
     
