@@ -15,7 +15,7 @@ multiple Iris databases. Hints below will help you through building this out.
 What each function should do:
 
 Iris constructor - Will allow a user to create or use an existing MySQL Iris database. The new
-flag specifies if the database should be created include the IRIS_DATA table. If the flag is false
+flag specifies if the database should be created including the IRIS_DATA table. If the flag is false
 it will simply connect to an existing Iris database.
 
 load() - Loads the Iris data from sklearn into the MySQL database table under the dbname specified. All
