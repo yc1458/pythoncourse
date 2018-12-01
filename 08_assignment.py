@@ -93,7 +93,6 @@ Ran 1 test in 0.658s
 
 '''
 def main():
-    pass
     # Usage example. 
      
     #Change get_credentials() with your password.
