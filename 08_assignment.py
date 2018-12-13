@@ -10,12 +10,14 @@ from sklearn import datasets as ds
 
 The Iris class below manages a database version of the Iris dataset available in the sklearn package.
 Build out the Iris class to be able to make it intelligent enough to handle
-multiple Iris databases. Hints below will help you through building this out.
+multiple Iris databases. Each database holds one IRIS_DATA table.
+
+Hints below will help you through building this code out.
 
 What each function should do:
 
 Iris constructor - Will allow a user to create or use an existing MySQL Iris database. The new
-flag specifies if the database should be created include the IRIS_DATA table. If the flag is false
+flag specifies if the database should be created including the IRIS_DATA table. If the flag is false
 it will simply connect to an existing Iris database.
 
 load() - Loads the Iris data from sklearn into the MySQL database table under the dbname specified. All
@@ -25,7 +27,8 @@ display_gt() - Takes an integer argument n and displays all rows with id greater
 
 del_observations() - Takes a list of ids and deletes them from the table
 
-update_observation() - Takes 3 arguments - The id, new target species and new target_species_id and updates the row with the new information
+update_observation() - Takes 3 arguments - The id, new target species and new target_species_id and updates the 
+row with the new information
 
 
 * Suggested reading / references:
@@ -62,7 +65,8 @@ CREATE TABLE iris_data (
 
 );
 
-Hint: When building this out, remove the NOT NULLs in the IRIS_DATA so that you can test without having to add data in all columns
+Hint: When building this out, temporarily remove the NOT NULLs in the IRIS_DATA so that you can test without 
+having to add data in all columns
 
 The database host address is assumed to be 127.0.0.1 (your local computer)
 
@@ -93,7 +97,6 @@ Ran 1 test in 0.658s
 
 '''
 def main():
-    pass
     # Usage example. 
      
     #Change get_credentials() with your password.
