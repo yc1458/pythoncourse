@@ -13,6 +13,10 @@ Assignment #2
 7. Make sure your work is committed to your master branch in Github
 
 
+Installation requirements:
+
+1. Please install numpy: pip install numpy
+
 '''
 import math
 import unittest
