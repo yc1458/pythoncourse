@@ -46,7 +46,10 @@ def exercise02():
 
 
 def exercise03():
-    #     # Reorganize the countdown list below in descending order and return the value of the 5th element in the sorted countdown list. The 5th element will be stored in the variable the_fifth_element, which currently below has a dummy value of -999.
+    # Programmatically reorganize the countdown list below in descending order and return the value of the 5th element in the sorted countdown list.
+    # The 5th element will be stored in the variable the_fifth_element, which currently below has a dummy value of -999.
+    # Remember, the index number of the 5th element is not 5
+    
     countdown = [9, 8, 7, 5, 4, 2, 1, 6, 10, 3, 0, -5]
     the_fifth_element = -999
 
